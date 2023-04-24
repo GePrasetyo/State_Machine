@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: TransitionOnHit
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"OnHit","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":234.0,"y":-86.0},"guid":"7dd97394-e9df-487b-8eef-a6f199ed345c","$version":"A","$type":"Unity.VisualScripting.TriggerStateTransition","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-314.0,"y":-83.0},"guid":"c9ffa686-b32f-4f9c-b31e-7b534ace7ccf","$version":"A","$type":"StateMachine.EventOnHit","$id":"11"},{"numeric":true,"defaultValues":{"b":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-110.0,"y":35.0},"guid":"6545bccb-c676-4226-b7a0-a8d97e5ce019","$version":"A","$type":"Unity.VisualScripting.Less","$id":"13"},{"defaultValues":{},"position":{"x":43.0,"y":-86.0},"guid":"ff11387f-dc7e-48ac-ae68-a9baeffc070a","$version":"A","$type":"Unity.VisualScripting.If","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"baa63643-5447-47e4-9d1e-ea4097fee25f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"9"},"destinationKey":"trigger","guid":"683d9818-406b-43f4-8dc0-cb7e0f1f8a3f","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"healthLeft","destinationUnit":{"$ref":"13"},"destinationKey":"a","guid":"d7ca256e-d9b9-4c37-80df-fae9d72a6c9e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"comparison","destinationUnit":{"$ref":"15"},"destinationKey":"condition","guid":"05fef567-1429-4017-aad3-e1b2690fad9c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
