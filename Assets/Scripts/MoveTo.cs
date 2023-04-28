@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using Unity.VisualScripting;
 
-namespace StateMachine {
+namespace TestStateMachine {
     [CreateAssetMenu(menuName = "ScriptableObjects/MoveTo", fileName = "MoveTo")]
     public class MoveTo : Action {
 

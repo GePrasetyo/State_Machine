@@ -1,6 +1,7 @@
 using Unity.VisualScripting;
 
-namespace StateMachine {
+namespace TestStateMachine
+{
 
     [UnitTitle("Event On Hit")]//The Custom Scripting Event node to receive the Event. Add "On" to the node title as an Event naming convention.
     [UnitCategory("Events\\MyCustomEvent")]//Set the path to find the node in the fuzzy finder as Events > My Events.

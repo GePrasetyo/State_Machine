@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AnimatorFSM.unity
+    guid: 4c8cf302da5133740a0632082d4beb94
   m_configObjects: {}

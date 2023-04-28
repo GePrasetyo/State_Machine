@@ -1,6 +1,7 @@
 using UnityEngine;
 
-namespace StateMachine {
+namespace TestStateMachine
+{
     public class Action : ScriptableObject {
 
     }
